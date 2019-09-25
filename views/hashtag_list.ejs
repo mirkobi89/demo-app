@@ -1,0 +1,16 @@
+<% include partials/header %>
+<h1>Una giornata a Baia Chia</h1>
+<ul class="list-unstyled">
+	<% hashtags.forEach(function(hashtag){ %>
+		<li> #<%= hashtag %> </li>
+	<% }) %>
+</ul>
+<div class="fixed-bottom">
+	<a href="/">
+		<i style="float: right;" class="fas fa-home fa-3x"></i>
+	</a>
+</div>
+<script type="text/javascript">
+	setTimeout("location.href='/';",5000);
+</script> 
+<% include partials/footer %>

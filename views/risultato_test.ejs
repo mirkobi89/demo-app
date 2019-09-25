@@ -1,0 +1,14 @@
+<% include partials/header %>
+<% if(punteggio<100){ %>
+	<h1>Digital Neanderthal</h1>
+	<p>Prova a mettere il naso fuori dalla caverna: il mondo è in continua evoluzione!</p>
+	<img src="images/neanderthal.jpg" class="img-thumbnail">
+<%} else { %>
+	<h1>Digital Connected</h1>
+	<p>Sei decisamente al passo coi tempi. Hai già postato la tua storia su instagram?</p>
+	<img src="images/digital.png" class="img-thumbnail">
+<% } %>
+	<script type="text/javascript">
+	setTimeout("location.href='hashtag_list';",5000);
+	</script>
+<% include partials/footer %>
